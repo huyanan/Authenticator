@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "target": "es5",
+    "strict": true,
+    "module": "commonjs",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": false,
+  },
+  "include": [
+    "src/*.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

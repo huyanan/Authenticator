@@ -1,0 +1,325 @@
+{
+    "extName": {
+        "message": "Autenticador",
+        "description": "Extension Name."
+    },
+    "extShortName": {
+        "message": "Autenticador",
+        "description": "Extension Short Name."
+    },
+    "extDesc": {
+        "message": "Autenticador genera códigos de verificación de 2 pasos en su navegador.",
+        "description": "Extension Description."
+    },
+    "added": {
+        "message": " ha sido añadido.",
+        "description": "Added Account."
+    },
+    "errorqr": {
+        "message": "Código QR no reconocido.",
+        "description": "QR Error."
+    },
+    "errorsecret": {
+        "message": "Error en la clave secreta. Sólo se admiten codificaciones Base32 (A-Z, 2-7 y =) y HEX (0-9 y A-F). Sin embargo, tu clave secreta es: ",
+        "description": "Secret Error."
+    },
+    "add_qr": {
+        "message": "Escanear un código QR",
+        "description": "Scan QR Code."
+    },
+    "add_secret": {
+        "message": "Introducción manual",
+        "description": "Manual Entry."
+    },
+    "close": {
+        "message": "Cerrar",
+        "description": "Close."
+    },
+    "ok": {
+        "message": "Aceptar",
+        "description": "OK."
+    },
+    "yes": {
+        "message": "Si",
+        "description": "Yes."
+    },
+    "no": {
+        "message": "No",
+        "description": "No."
+    },
+    "account": {
+        "message": "Cuenta",
+        "description": "Account."
+    },
+    "accountName": {
+        "message": "Nombre de la cuenta",
+        "description": "Account Name."
+    },
+    "issuer": {
+        "message": "Emisor",
+        "description": "Issuer."
+    },
+    "secret": {
+        "message": "Clave secreta",
+        "description": "Secret."
+    },
+    "updateSuccess": {
+        "message": "Éxito.",
+        "description": "Update Success."
+    },
+    "updateFailure": {
+        "message": "Ha fallado.",
+        "description": "Update Failure."
+    },
+    "about": {
+        "message": "Acerca de",
+        "description": "About."
+    },
+    "export_import": {
+        "message": "Exportar/Importar",
+        "description": "Export and Import."
+    },
+    "settings": {
+        "message": "Preferencias",
+        "description": "Settings."
+    },
+    "security": {
+        "message": "Seguridad",
+        "description": "Security."
+    },
+    "current_phrase": {
+        "message": "Contraseña actual",
+        "description": "Current Passphrase."
+    },
+    "new_phrase": {
+        "message": "Nueva contraseña",
+        "description": "New Passphrase."
+    },
+    "phrase": {
+        "message": "Contraseña",
+        "description": "Passphrase."
+    },
+    "confirm_phrase": {
+        "message": "Confirma la contraseña",
+        "description": "Confirm Passphrase."
+    },
+    "confirm_delete": {
+        "message": "Are you sure you want to delete this account? This action cannot be undone.",
+        "description": "Remove entry confirmation"
+    },
+    "security_warning": {
+        "message": "This password will be used to encrypt your accounts. No one can help you if you forget the password.",
+        "description": "Passphrase Warning."
+    },
+    "update": {
+        "message": "Actualizar",
+        "description": "Update."
+    },
+    "phrase_incorrect": {
+        "message": "No puedes agregar una nueva cuenta o exportar tus datos hasta que todas las cuentas hayan sido desencriptadas. Por favor, introduzce la contraseña correcta antes de continuar.",
+        "description": "Passphrase Incorrect."
+    },
+    "phrase_not_match": {
+        "message": "La contraseña no coincide.",
+        "description": "Passphrase Not Match."
+    },
+    "encrypted": {
+        "message": "Encriptado",
+        "description": "Encrypted."
+    },
+    "copied": {
+        "message": "Copiado",
+        "description": "Copied."
+    },
+    "feedback": {
+        "message": "Su opinión",
+        "description": "Feedback."
+    },
+    "translate": {
+        "message": "Traducir",
+        "description": "Translate."
+    },
+    "source": {
+        "message": "Código fuente",
+        "description": "Source Code."
+    },
+    "passphrase_info": {
+        "message": "Introduze la contraseña para desencriptar los datos de la cuenta.",
+        "description": "Passphrase Info"
+    },
+    "sync_clock": {
+        "message": "Sincronizar el reloj con Google",
+        "description": "Sync Clock"
+    },
+    "remember_phrase": {
+        "message": "Recordar la contraseña",
+        "description": "Remember Passphrase"
+    },
+    "clock_too_far_off": {
+        "message": "¡Peligro! Tu reloj local está demasiado desfasado, corrígelo antes de continuar.",
+        "description": "Local Time is Too Far Off"
+    },
+    "remind_backup": {
+        "message": "Do you have a backup for your accounts? Don't wait until it's too late!",
+        "description": "Remind Backup"
+    },
+    "capture_failed": {
+        "message": "La captura falló. Es necesario recargar la página e intentarlo de nuevo.",
+        "description": "Capture Failed"
+    },
+    "based_on_time": {
+        "message": "Basado en tiempo",
+        "description": "Time Based"
+    },
+    "based_on_counter": {
+        "message": "Basado en un contador",
+        "description": "Counter Based"
+    },
+    "resize_popup_page": {
+        "message": "Página emergente",
+        "description": "Popup Page Settings"
+    },
+    "scale": {
+        "message": "Escala",
+        "description": "Scale"
+    },
+    "export_info": {
+        "message": "Advertencia: todas las copias de seguridad están sin encriptar. ¿Quieres añadir una cuenta para otra aplicación? Pasa el ratón por encima de la esquina superior-derecha de cualquier cuenta y pulsa el botón oculto.",
+        "description": "Export menu info text"
+    },
+    "download_backup": {
+        "message": "Descargar una copia de seguridad",
+        "description": "Download backup file."
+    },
+    "import_backup": {
+        "message": "Importar una copia de seguridad",
+        "description": "Import backup."
+    },
+    "import_backup_file": {
+        "message": "Importar un archivo con la copia de seguridad",
+        "description": "Import backup file."
+    },
+    "import_backup_code": {
+        "message": "Importar el Texto de la Copia de Seguridad",
+        "description": "Import backup code."
+    },
+    "show_all_entries": {
+        "message": "Mostrar todas las entradas",
+        "description": "Show all entries."
+    },
+    "dropbox_risk": {
+        "message": "Advertencia: las copias de seguridad no están encriptadas. Lo cuál no se recomienda, pero es bajo tu propio riesgo.",
+        "description": "Backup risk warning."
+    },
+    "import_error_password": {
+        "message": "Debes indicar una contraseña correcta para poder importar una copia de seguridad.",
+        "description": "Error password warning when import backups."
+    },
+    "local_passphrase_warning": {
+        "message": "Tu contraseña se almacena localmente. Cámbiala en el menú de seguridad inmediatamente.",
+        "description": "localStorage password warning."
+    },
+    "remove": {
+        "message": "Eliminar",
+        "description": "Remove password."
+    },
+    "download_enc_backup": {
+        "message": "Descargar copia de seguridad protegida por contraseña",
+        "description": "Download Encrypted Backup"
+    },
+    "search": {
+        "message": "Buscar",
+        "description": "Search"
+    },
+    "popout": {
+        "message": "Modo ventana emergente",
+        "description": "Make window turn into persistent popup"
+    },
+    "lock": {
+        "message": "Bloquear",
+        "description": "Lock accounts"
+    },
+    "edit": {
+        "message": "Editar",
+        "description": "Edit"
+    },
+    "manual_dropbox": {
+        "message": "Sincronización manual",
+        "description": "Manual sync"
+    },
+    "use_autofill": {
+        "message": "Usar auto-completado",
+        "description": "Use Autofill"
+    },
+    "use_high_contrast": {
+        "message": "Utilizar contraste alto",
+        "description": "Use High Contrast"
+    },
+    "storage_menu": {
+        "message": "Almacenamiento y copias de seguridad",
+        "description": "Storage and sync menu title"
+    },
+    "storage_location_info": {
+        "message": "Elige dónde se almacenan tus datos. Usando `local' se almacenan en tu PC. Usando 'sync' permite a tu navegador sincronizar tus datos con la nube si ha iniciado sesión en una cuenta de sincronización.",
+        "description": "Message explaning the diffrences between sync and local storage spaces."
+    },
+    "storage_sync_info": {
+        "message": "Realizar copias de seguridad automáticas de tus datos en servicios de almacenamiento de terceros.",
+        "description": "3rd party backup info"
+    },
+    "storage_location": {
+        "message": "Ubicación del almacenamiento",
+        "description": "Storage location"
+    },
+    "sign_in": {
+        "message": "Iniciar sesión",
+        "description": "Sign in to 3rd party storage services"
+    },
+    "log_out": {
+        "message": "Cerrar sesión",
+        "description": "Sign out of 3rd party storage services"
+    },
+    "token_revoked": {
+        "message": "Ha habido un problema al conectarse a tu cuenta $SERVICE$. Inténtalo de nuevo.",
+        "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+        "placeholders": {
+            "service": {
+                "content": "$1",
+                "example": "Google Drive"
+            }
+        }
+    },
+    "otp_unsupported_warn": {
+        "message": "You have one or more Steam or Blizzard accounts. Unencrypted backups will not use standardized backup format.",
+        "description": "Warning if using account that is not supported by standard backup format."
+    },
+    "otp_backup_inform": {
+        "message": "You can import backups from some other applications.",
+        "description": "Info text on import page"
+    },
+    "otp_backup_learn": {
+        "message": "Learn more",
+        "description": "learn more link on import page. Placed after otp_backup_inform"
+    },
+    "loading": {
+        "message": "Loading..."
+    },
+    "advanced": {
+        "message": "Advanced"
+    },
+    "period": {
+        "message": "Period"
+    },
+    "type": {
+        "message": "Type"
+    },
+    "invalid": {
+        "message": "Invalid"
+    },
+    "autolock": {
+        "message": "Lock after"
+    },
+    "minutes": {
+        "message": "minutes"
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "authenticator-extension",
+  "version": "0.1.0",
+  "description": "Authenticator generates 2-Step Verification codes in your browser.",
+  "scripts": {
+    "compile": "bash ./scripts/build.sh firefox",
+    "fix": "gts fix",
+    "chrome": "bash scripts/build.sh chrome",
+    "firefox": "bash scripts/build.sh firefox",
+    "prod": "bash scripts/build.sh prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Authenticator-Extension/Authenticator.git"
+  },
+  "author": "Authenticator Extension",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Authenticator-Extension/Authenticator/issues"
+  },
+  "homepage": "https://github.com/Authenticator-Extension/Authenticator#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.86",
+    "@types/crypto-js": "^3.1.43",
+    "@types/jssha": "2.0.0",
+    "css-loader": "^2.1.1",
+    "fork-ts-checker-webpack-plugin": "^1.3.5",
+    "gts": "^1.1.0",
+    "prettier": "1.18.2",
+    "sass": "^1.21.0",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1",
+    "vue-loader": "^15.7.0",
+    "vue-svg-loader": "^0.12.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.31",
+    "@types/jquery.simulate": "0.0.30",
+    "crypto-js": "^3.1.9-1",
+    "jquery": "^3.4.1",
+    "jquery-simulate": "^1.0.2",
+    "jquery-simulate-ext": "^1.3.0",
+    "jssha": "^2.3.1",
+    "qrcode-generator": "^1.4.3",
+    "qrcode-reader": "^1.0.4",
+    "vue": "^2.6.10",
+    "vue2-dragula": "^2.5.4",
+    "vuex": "^3.1.1"
+  }
+}

@@ -1,0 +1,325 @@
+{
+    "extName": {
+        "message": "Otentikator",
+        "description": "Extension Name."
+    },
+    "extShortName": {
+        "message": "Authenticator",
+        "description": "Extension Short Name."
+    },
+    "extDesc": {
+        "message": "Authenticator menghasilkan kode verifikasi 2 langkah di browser anda.",
+        "description": "Extension Description."
+    },
+    "added": {
+        "message": " telah ditambahkan.",
+        "description": "Added Account."
+    },
+    "errorqr": {
+        "message": "Kode QR tidak diketahui.",
+        "description": "QR Error."
+    },
+    "errorsecret": {
+        "message": "Rahasia kesalahan. Hanya Base32 (A-Z, 2-7 dan =) dan HEX (0-9 dan A-F) yang didukung. Namun, rahasia Anda adalah: ",
+        "description": "Secret Error."
+    },
+    "add_qr": {
+        "message": "Pindai kode QR",
+        "description": "Scan QR Code."
+    },
+    "add_secret": {
+        "message": "Entri manual",
+        "description": "Manual Entry."
+    },
+    "close": {
+        "message": "Tutup",
+        "description": "Close."
+    },
+    "ok": {
+        "message": "Ok",
+        "description": "OK."
+    },
+    "yes": {
+        "message": "Ya",
+        "description": "Yes."
+    },
+    "no": {
+        "message": "Tidak",
+        "description": "No."
+    },
+    "account": {
+        "message": "Akun",
+        "description": "Account."
+    },
+    "accountName": {
+        "message": "Nama Akun",
+        "description": "Account Name."
+    },
+    "issuer": {
+        "message": "Penerbit",
+        "description": "Issuer."
+    },
+    "secret": {
+        "message": "Rahasia",
+        "description": "Secret."
+    },
+    "updateSuccess": {
+        "message": "Sukses.",
+        "description": "Update Success."
+    },
+    "updateFailure": {
+        "message": "Gagal.",
+        "description": "Update Failure."
+    },
+    "about": {
+        "message": "Tentang",
+        "description": "About."
+    },
+    "export_import": {
+        "message": "Ekspor / Impor",
+        "description": "Export and Import."
+    },
+    "settings": {
+        "message": "Setelan",
+        "description": "Settings."
+    },
+    "security": {
+        "message": "Keamanan",
+        "description": "Security."
+    },
+    "current_phrase": {
+        "message": "Kata sandi saat ini",
+        "description": "Current Passphrase."
+    },
+    "new_phrase": {
+        "message": "Kata sandi baru",
+        "description": "New Passphrase."
+    },
+    "phrase": {
+        "message": "Kata sandi",
+        "description": "Passphrase."
+    },
+    "confirm_phrase": {
+        "message": "Konfirmasi kata sandi",
+        "description": "Confirm Passphrase."
+    },
+    "confirm_delete": {
+        "message": "Are you sure you want to delete this account? This action cannot be undone.",
+        "description": "Remove entry confirmation"
+    },
+    "security_warning": {
+        "message": "This password will be used to encrypt your accounts. No one can help you if you forget the password.",
+        "description": "Passphrase Warning."
+    },
+    "update": {
+        "message": "Perbarui",
+        "description": "Update."
+    },
+    "phrase_incorrect": {
+        "message": "Anda tidak dapat menambahkan akun baru atau mengekspor data hingga semua akun dienskripsi. Tolong masukkan kata sandi yang tepat sebelum melanjutkan.",
+        "description": "Passphrase Incorrect."
+    },
+    "phrase_not_match": {
+        "message": "Kata sandi salah.",
+        "description": "Passphrase Not Match."
+    },
+    "encrypted": {
+        "message": "Terenkripsi",
+        "description": "Encrypted."
+    },
+    "copied": {
+        "message": "Tersalin",
+        "description": "Copied."
+    },
+    "feedback": {
+        "message": "Umpan Balik",
+        "description": "Feedback."
+    },
+    "translate": {
+        "message": "Terjemahkan",
+        "description": "Translate."
+    },
+    "source": {
+        "message": "Kode sumber",
+        "description": "Source Code."
+    },
+    "passphrase_info": {
+        "message": "Masukkan password untuk mendeskripsi data akun.",
+        "description": "Passphrase Info"
+    },
+    "sync_clock": {
+        "message": "Sinkronisasi riwayat dengan Google",
+        "description": "Sync Clock"
+    },
+    "remember_phrase": {
+        "message": "Ingat kata sandi",
+        "description": "Remember Passphrase"
+    },
+    "clock_too_far_off": {
+        "message": "Hati hati! Jam lokal anda terlalu jauh, tolong perbarui sebelum melanjutkan.",
+        "description": "Local Time is Too Far Off"
+    },
+    "remind_backup": {
+        "message": "Do you have a backup for your accounts? Don't wait until it's too late!",
+        "description": "Remind Backup"
+    },
+    "capture_failed": {
+        "message": "Gagal ditangkap, silakan muat ulang halaman dan coba lagi.",
+        "description": "Capture Failed"
+    },
+    "based_on_time": {
+        "message": "Berdasarkan Waktu",
+        "description": "Time Based"
+    },
+    "based_on_counter": {
+        "message": "Berdasarkan Penghitung",
+        "description": "Counter Based"
+    },
+    "resize_popup_page": {
+        "message": "Halaman popup",
+        "description": "Popup Page Settings"
+    },
+    "scale": {
+        "message": "Skala",
+        "description": "Scale"
+    },
+    "export_info": {
+        "message": "Peringatan: Semua cadangan tidak dienkripsi. Ingin menambahkan akun ke aplikasi lain? Arahkan ke bagian kanan atas dari akun apa pun dan tekan tombol tersembunyinya.",
+        "description": "Export menu info text"
+    },
+    "download_backup": {
+        "message": "Unduh Berkas Cadangan",
+        "description": "Download backup file."
+    },
+    "import_backup": {
+        "message": "Impor Cadangan",
+        "description": "Import backup."
+    },
+    "import_backup_file": {
+        "message": "Impor Berkas Cadangan",
+        "description": "Import backup file."
+    },
+    "import_backup_code": {
+        "message": "Impor Text Cadangan",
+        "description": "Import backup code."
+    },
+    "show_all_entries": {
+        "message": "Tampilkan semua entri",
+        "description": "Show all entries."
+    },
+    "dropbox_risk": {
+        "message": "Peringatan: Cadangan tidak terenkripsi. Perhatikan resikonya sebelum digunakan.",
+        "description": "Backup risk warning."
+    },
+    "import_error_password": {
+        "message": "Masukkan kata sandi yang tepat untuk mengimpor cadangan.",
+        "description": "Error password warning when import backups."
+    },
+    "local_passphrase_warning": {
+        "message": "Kata sandi anda disimpan secara lokal, tolong ubah kedalam menu keamanan segera.",
+        "description": "localStorage password warning."
+    },
+    "remove": {
+        "message": "Hapus",
+        "description": "Remove password."
+    },
+    "download_enc_backup": {
+        "message": "Download cadangan dilindungi sandi",
+        "description": "Download Encrypted Backup"
+    },
+    "search": {
+        "message": "Cari",
+        "description": "Search"
+    },
+    "popout": {
+        "message": "Mode popup",
+        "description": "Make window turn into persistent popup"
+    },
+    "lock": {
+        "message": "Kunci",
+        "description": "Lock accounts"
+    },
+    "edit": {
+        "message": "Ubah",
+        "description": "Edit"
+    },
+    "manual_dropbox": {
+        "message": "Manual Sync",
+        "description": "Manual sync"
+    },
+    "use_autofill": {
+        "message": "IsiOtomatis",
+        "description": "Use Autofill"
+    },
+    "use_high_contrast": {
+        "message": "Gunakan Kontras yang Tinggi",
+        "description": "Use High Contrast"
+    },
+    "storage_menu": {
+        "message": "Penyimpanan & Cadangan",
+        "description": "Storage and sync menu title"
+    },
+    "storage_location_info": {
+        "message": "Pilih dimana data kamu akan disimpan. Menggunakan 'lokal' akan menyimpanan data kamu di PC. Menggunakan 'Sinkron' membuat browser Menyinkronkan data ke cloud jika kamu sudah masuk ke akun Sync.",
+        "description": "Message explaning the diffrences between sync and local storage spaces."
+    },
+    "storage_sync_info": {
+        "message": "Otomatis mencadangkan data kamu ke layanan penyimpanan pihak ke-3.",
+        "description": "3rd party backup info"
+    },
+    "storage_location": {
+        "message": "Lokasi Penyimpanan",
+        "description": "Storage location"
+    },
+    "sign_in": {
+        "message": "Masuk",
+        "description": "Sign in to 3rd party storage services"
+    },
+    "log_out": {
+        "message": "Keluar",
+        "description": "Sign out of 3rd party storage services"
+    },
+    "token_revoked": {
+        "message": "Ada error saat menghubungkan ke akun $SERVICE$ kamu, silahkan masuk lagi.",
+        "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+        "placeholders": {
+            "service": {
+                "content": "$1",
+                "example": "Google Drive"
+            }
+        }
+    },
+    "otp_unsupported_warn": {
+        "message": "You have one or more Steam or Blizzard accounts. Unencrypted backups will not use standardized backup format.",
+        "description": "Warning if using account that is not supported by standard backup format."
+    },
+    "otp_backup_inform": {
+        "message": "You can import backups from some other applications.",
+        "description": "Info text on import page"
+    },
+    "otp_backup_learn": {
+        "message": "Learn more",
+        "description": "learn more link on import page. Placed after otp_backup_inform"
+    },
+    "loading": {
+        "message": "Loading..."
+    },
+    "advanced": {
+        "message": "Advanced"
+    },
+    "period": {
+        "message": "Period"
+    },
+    "type": {
+        "message": "Type"
+    },
+    "invalid": {
+        "message": "Invalid"
+    },
+    "autolock": {
+        "message": "Lock after"
+    },
+    "minutes": {
+        "message": "minutes"
+    }
+}
