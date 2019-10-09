@@ -473,16 +473,19 @@ async function initCode() {
       },
       function(tabs) {
         if (tabs[0] && tabs[0].id) {
-          chrome.tabs.sendMessage(
-            tabs[0].id,
-            { code: code ? code : -1 },
-            function(response: Object) {
-              console.log("收到来自后台的回复：" + response);
-            }
-          );
+          try {
+            chrome.tabs.sendMessage(
+              tabs[0].id,
+              { code: code ? code : -1 },
+              function(response: Object) {
+                console.log("收到来自后台的回复：" + response);
+              }
+            );
+          } catch (exception) {}
         }
       }
     );
   }, 1000);
 }
+
 initCode();

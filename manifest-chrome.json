@@ -48,8 +48,7 @@
         "https://www.google.com/",
         "https://*.dropboxapi.com/*",
         "https://www.googleapis.com/*",
-        "https://accounts.google.com/o/oauth2/revoke",
-        "*://sso.vipkid.com.cn/*"
+        "https://accounts.google.com/o/oauth2/revoke"
     ],
     "offline_enabled": true,
     "web_accessible_resources": [
